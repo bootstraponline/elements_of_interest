@@ -1,0 +1,6 @@
+.idea/
+*.gem
+swift/elements_of_interest/build
+swift_bin/
+data/
+xcuserdata/

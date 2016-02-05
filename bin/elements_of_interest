@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require_relative '../lib/elements_of_interest'
+
+unless ARGV.length > 0
+  puts "Usage: elements_of_interest projectName"
+  exit
+end
+
+ElementsOfInterest::TestSummary.new(ARGV.first).parse_test_summaries
